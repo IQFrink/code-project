@@ -1,0 +1,21 @@
+* {
+    background-image: url(./pawel-czerwinski-8PqU9b_cpbg.jpg);
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(197, 196, 196);
+    -webkit-text-stroke-color: rgb(2, 213, 255);
+    -webkit-text-stroke-width: thin;
+    background: none;
+    
+}
+
+body,
+header {
+    background: none;
+
+}
