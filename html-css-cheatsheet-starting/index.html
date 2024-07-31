@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Jacob's HTML Table Cheatsheet</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>HTML Cheatsheet</h1>        
+      <h1>HTML Cheatsheet</h1>
     </header>
-    <h2>Tables</h2>
-    <table>
-        
+    <h2>Common Table Elements</h2>
+    <table id="table-1" border="1" width="60%" align="center">
+      <tr>
+        <th>Syntax</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <th>Table</th>
+        <th>
+          This element is required to start a table. It incapsulates the rest of
+          the elements of a table and has opening and closing tags
+        </th>
+      </tr>
+      <tr>
+        <th>&lt;tr&gt;</th>
+        <th>Defines a table row</th>
+      </tr>
+      <tr>
+        <th>&lt;td&gt;</th>
+        <th>Defines a table cell (data cell)</th>
+      </tr>
+      <tr>
+        <th>&lt;th&gt;</th>
+        <th>
+          Defines a table header cell. By default, header cells are bold and
+          centered.
+        </th>
+      </tr>
     </table>
-</body>
+    <h2>Additional Table Elements</h2>
+    <table id="table-2" border="1" border="dotted" align="center">
+      <tr>
+        <th></th>
+      </tr>
+    </table>
+  </body>
 </html>
