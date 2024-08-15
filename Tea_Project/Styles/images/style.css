@@ -1,0 +1,29 @@
+* {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+.right-container {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    text-decoration: underline;
+}
+
+#tea {
+    margin-left: 10px;
+    align-items: center;
+    size: auto 50px;
+}
