@@ -40,8 +40,8 @@
 
 .main-picture img {
     display: flex;
-    width: 100%;
-    height: 700px;
+    width: 95%;
+    margin: auto;
 }
 
 .mission-child {
@@ -57,4 +57,23 @@
 
 h2 {
     text-align: center;
+}
+
+.midsection {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.midchild {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic {
+    height: 200px;
+    width: 300px;
 }
