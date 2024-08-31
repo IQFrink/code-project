@@ -1,0 +1,14 @@
+h5{
+    display: inline;
+}
+
+* {
+    background-color: pink;
+}
+
+
+
+.kid {
+    flex: 1;
+    background-color: aqua;
+}
